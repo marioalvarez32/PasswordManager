@@ -1,0 +1,114 @@
+#pnFrame{
+    //-fx-background-image:url(../images/real_cf.png);
+    -fx-background-radius:50 50 50 50;
+    -fx-border-color:black;
+    //-fx-border-style:inside;
+    -fx-border-width:5;
+    -fx-border-radius:0 50 0 0;
+}
+#txtLogo{
+    -fx-translate-y:50;
+    -fx-translate-x:15;
+    //-fx-padding: 0 2 0 2;
+    -fx-font-size:65;
+    -fx-font-family:'BankGothic Lt BT';
+    -fx-text-fill: -fx-focus-color;//-fx-focus-color;//#2A6068;
+    -fx-effect:dropshadow( one-pass-box , black , 7 , 1 , 5 , 10 );
+}
+#txfPass{
+    -fx-alignment:CENTER;
+    -fx-translate-y:250;
+    -fx-translate-x:80;
+    -fx-background-radius:5 5 5 5;
+    -fx-min-height:30;
+    -fx-min-width:250;
+}
+#txfUsn{
+    -fx-alignment:CENTER;
+    -fx-translate-y:200;
+    -fx-translate-x:80;
+    -fx-background-radius:5 5 5 5;
+    -fx-min-height:30;
+    -fx-min-width:250;
+}
+#btnExit{
+   // -fx-background-radius: 5 5 5 5, 0 0 10 10, 0 20 5 10;
+    -fx-background-radius:0 0 0 15;
+    -fx-text-fill: white;
+    -fx-font-size:15px;
+    -fx-translate-x: 360;
+}
+#btnExit:hover{
+-fx-background-color:orange;
+}
+#btnAdmin{
+    -fx-translate-y: 200;
+    -fx-translate-x:100;
+    //-fx-background-color: gray;
+    ////-fx-background-insets: 5 10 15 20;
+    //-fx-background-radius: 10 0 0 5;
+}
+#btnUser{
+    -fx-translate-y:275;
+    -fx-translate-x:100;
+}
+#btnLogIn{
+    -fx-translate-x:100;
+    -fx-translate-y:200;
+}
+#btnCancel{
+    -fx-translate-y:275;
+    -fx-translate-x:100;
+}
+
+#recRibbon{
+    -fx-background-color:#559955;
+}
+.button{
+        -fx-background-color:black;
+        //-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+        //-fx-background-image:url(../images/woven.png);
+        -fx-padding: 0px 0px 0px 0px;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+        -fx-font-size:20;
+
+        //-fx-background-radius: 180 180 180 180;
+        -fx-text-fill:white;
+}
+
+.button:hover{
+    //-fx-text-fill:white;
+    -fx-background-color:derive(-fx-focus-color,5%);
+}
+.button:hover{
+    //-fx-text-fill:white;
+}
+.button:pressed{
+	//-fx-background-color:white;
+      -fx-background-color: linear-gradient(-fx-focus-color, black);
+}
+#btnExit:hover{
+    -fx-background-color: #ff1c00;
+    -fx-text-fill:white;
+}
+
+#logInLblIdError{
+    -fx-text-fill:#bc0000;
+    -fx-translate-y:178;
+    -fx-translate-x:110;
+    -fx-font-size:15px;
+}
+#lblInvalidData{
+    -fx-text-fill:red;
+    -fx-translate-x:85;
+    -fx-translate-y:175;
+    -fx-font-weight:bold;
+    -fx-font-size:12;
+}
+
+
+
+
+
+//-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+//-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );

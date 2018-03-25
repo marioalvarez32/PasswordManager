@@ -1,0 +1,120 @@
+#mainScreen{
+-fx-border-width:3;
+-fx-min-height:340;
+-fx-min-width:435;
+-fx-background-image:url(../Images/Backgrounds/back.jpg);
+-fx-background-size:stretch;
+-fx-background-color:#1d1d1d;
+-fx-border-color:black;
+}
+
+
+#hbButtons{
+-fx-spacing:10;
+-fx-translate-y:295;
+-fx-translate-x:175;
+}
+.text-field{
+    -fx-font-size:13;
+    -fx-font-weight:bold;
+    //-fx-background-color:white;
+    -fx-text-fill:black;
+    -fx-max-width:250;
+    -fx-min-height:25;
+    -fx-max-height:25;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.alert{
+-fx-font-size:15;
+-fx-font-family: "Segoe UI Semibold";
+-fx-background-image:url(../images/woven.png);
+}
+.button{
+        -fx-background-color:black;
+        //-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+        //-fx-background-image:url(../images/woven.png);
+        -fx-padding: 0px 0px 0px 0px;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+        -fx-font-size:15;
+        -fx-font-family: "Segoe UI Semibold";
+        -fx-min-height:30;
+        -fx-min-width:100;
+        //-fx-background-radius: 0 0 0 0;
+        -fx-text-fill:white;
+}
+
+.button:hover{
+    //-fx-text-fill:white;
+    -fx-background-color:derive(-fx-focus-color,5%);
+}
+.button:pressed{
+	//-fx-background-color:white;
+      -fx-background-color: linear-gradient(-fx-focus-color, black);
+}
+#lblMessage{
+-fx-padding:20 0 10 90;
+-fx-font-size:40;
+-fx-text-fill:white;
+}
+
+
+
+
+#vbTextFields{
+    //-fx-border-color:white;
+    -fx-spacing:7;
+    -fx-translate-x:180;
+    -fx-translate-y:25;
+}
+
+#vbLabels{
+    -fx-alignment:TOP_LEFT;
+    -fx-translate-y:25;
+    -fx-translate-x:30;
+    -fx-min-height:300;
+    -fx-min-width:100;
+    -fx-spacing:7;
+}
+#btnExit{
+   // -fx-background-radius: 5 5 5 5, 0 0 10 10, 0 20 5 10;
+    -fx-background-radius:0 0 0 15;
+    -fx-text-fill: white;
+    -fx-min-width:35;
+    -fx-font-size:15px;
+    -fx-translate-x:400;
+}
+#btnExit:hover{
+-fx-background-color:orange;
+}
+
+#vbLabels .label{
+    //-fx-font-size:13;
+    //-fx-font-weight:bold;
+    //-fx-text-fill:Gray;
+    -fx-min-height:25;
+    -fx-max-height:25;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+/
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.text-field{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
